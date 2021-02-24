@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url(./Portofolio_files/vintage.png);
+    background-image: url(./img/vintage.png);
     margin: 0;
     height: auto;
     font-family: Handlee;
@@ -25,7 +25,7 @@ body{
 }
 
 .title{
-    background-image: url(./Portofolio_files/trees.png);
+    background-image: url(./img/trees.png);
     color: #333333;
     display: inline-block;
     padding: 10px 20px;
@@ -38,7 +38,7 @@ body{
 }
 
 hr{
-    background-image: url(./Portofolio_files/trees.png);
+    background-image: url(./img/trees.png);
     margin : 0;
 }
 
@@ -140,7 +140,7 @@ hr{
 }
 
 footer{
-    background-image: url(./Portofolio_files/vintage.png);
+    background-image: url(./img/vintage.png);
     padding: 15px 0px;
 }
 
@@ -186,7 +186,7 @@ button[type="keporto"]{
 }
 
 button[type="kembali"]{
-    background-image: url(./Portofolio_files/trees.png);
+    background-image: url(./img/trees.png);
     border-bottom: solid 2px #d1d1d1;
     color: black;
 }
