@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Nilai</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <script>
+        function average(){
+        A = parseFloat(document.getElementById("firstNum").value)
+        B = parseFloat(document.getElementById("secondNum").value)
+        C = parseFloat(document.getElementById("thirdNum").value)
+
+        document.getElementById('hasil').innerHTML = (A+B+C)/3
+        }
+
+        function highest(){
+        A = parseFloat(document.getElementById("firstNum").value)
+        B = parseFloat(document.getElementById("secondNum").value)
+        C = parseFloat(document.getElementById("thirdNum").value)
+
+        document.getElementById('nilaimax').innerHTML = Math.max(A,B,C)
+        }
+
+        function lowest(){
+            A = parseFloat(document.getElementById("firstNum").value)
+        B = parseFloat(document.getElementById("secondNum").value)
+        C = parseFloat(document.getElementById("thirdNum").value)
+
+        document.getElementById('nilaimin').innerHTML = Math.min(A,B,C)
+        }
+
+        function middle(){
+            A = parseFloat(document.getElementById("firstNum").value)
+        B = parseFloat(document.getElementById("secondNum").value)
+        C = parseFloat(document.getElementById("thirdNum").value)
+
+        var arr=[A,B,C];
+        arr.sort(function(a, b){return a-b});
+
+        document.getElementById('nilaitengah').innerHTML = arr[1];
+        }
+
+    </script>
+
+    <h1 class ="judul-mean">Menghitung Nilai Rata-Rata, Tertinggi, Terendah, <br> dan Tengah dari Tiga Buah Nilai</h1>
+
+<form class="isi-mean">
+    Nilai-1 : <input type="text" name="" id="firstNum"> <br><br>
+    Nilai-2 : <input type="text" name="" id="secondNum"> <br><br>
+    Nilai-3 : <input type="text" name="" id="thirdNum"> <br><br>
+    <input type="button" onclick="average(),highest(),lowest(),middle()" value="Hitung" id="myInput">
+    <input type="button" onclick="document.getElementById('firstNum').value='', 
+    document.getElementById('secondNum').value='', 
+    document.getElementById('thirdNum').value='' " value="Hapus">
+</form>
+
+<div class="tampil-mean">
+<p> 
+    Hasil : <br>
+    <p>Rata-Rata : </p>
+    <span id="hasil"></span> <br>
+    <p>Nilai Terendah : </p>
+    <span id="nilaimin"></span> <br>
+    <p>Nilai Tengah : </p>
+    <span id="nilaitengah"></span> <br>
+    <p>Nilai Tertinggi : </p>
+    <span id="nilaimax"></span> <br>
+
+</p>
+</div>
+<div class="pindah-page">
+    <form method="get" action="./index.html">
+      <button type="keporto" name="button">Portofolio</button>
+    </form>
+  </div>
+  <br>
+
+</body>
+</html>
