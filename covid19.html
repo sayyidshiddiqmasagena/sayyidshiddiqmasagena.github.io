@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COVID-19</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+
+  <body>
+    <div class="container-covid">
+      <h1>Informasi Covid-19</h1>
+      <div class="table-worldwide">
+        <p>1. Internasional</p>
+        <table class="table table-hover table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Positif</th>
+              <th scope="col">Sembuh</th>
+              <th scope="col">Meninggal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="data"></tr>
+          </tbody>
+        </table>
+        <p>2. Indonesia</p>
+      </div>
+      <div class="table-indonesia">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Positif</th>
+              <th scope="col">Sembuh</th>
+              <th scope="col">Meninggal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="dataindonesia"></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-singapore">
+        <p>3. Singapore</p>
+        <table class="table table-hover table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Positif</th>
+              <th scope="col">Sembuh</th>
+              <th scope="col">Meninggal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="datasingapore"></tr>
+          </tbody>
+        </table>
+        <p>4. Malaysia</p>
+      </div>
+      <div class="table-malaysia">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Positif</th>
+              <th scope="col">Sembuh</th>
+              <th scope="col">Meninggal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="datamalaysia"></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-myanmar">
+        <p>5. Myanmar (Burma)</p>
+        <table class="table table-hover table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Positif</th>
+              <th scope="col">Sembuh</th>
+              <th scope="col">Meninggal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="datamyanmar"></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <center>
+      <form method="get" action="./index.html">
+        <button type="keporto" name="button">Portofolio</button>
+      </form>
+    </center>
+    <br /><br /><br />
+  </body>
+</html>

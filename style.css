@@ -336,6 +336,73 @@ button[type="keregis"] {
   color: black;
 }
 
+button[type="kecovid"] {
+  background-color: #5ae5fd;
+  border-bottom: solid 2px #0d72c5;
+  color: black;
+}
+
+.container-covid {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation: fadeIn 2s;
+}
+
+.container-covid p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.container-covid h1 {
+  color: white;
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 35px;
+  text-align: center;
+  font-family: Handlee;
+  margin-bottom: 30px;
+}
+
+.table-worldwide,
+.table-singapore,
+.table-myanmar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.table-worldwide th,
+.table-singapore th,
+.table-myanmar th {
+  background-color: #131413;
+}
+
+.table-worldwide td,
+.table-singapore td,
+.table-myanmar td {
+  color: #2e86c1;
+}
+
+.table-indonesia,
+.table-malaysia {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  font-size: 10px;
+}
+
+.table-indonesia th,
+.table-malaysia th {
+  background-color: white;
+  color: #131413;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
