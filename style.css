@@ -342,6 +342,12 @@ button[type="kecovid"] {
   color: black;
 }
 
+button[type="kecovidreact"] {
+  background-color: #a75989;
+  border-bottom: solid 2px #703c5c;
+  color: black;
+}
+
 .container-covid {
   margin-left: auto;
   margin-right: auto;
